@@ -1,0 +1,13 @@
+{
+    "name": "node-express-html-demo",
+    "version": "1.0.0",
+    "description": "Aplicacion basica para aprender Node.js, Express y fetch",
+    "main": "backend/server.js",
+    "scripts": {
+        "start": "node backend/server.js",
+        "dev": "node backend/server.js"
+    },
+    "dependencies": {
+        "express": "^4.21.2"
+    }
+}

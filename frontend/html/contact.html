@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Contacto | Mi Blog</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Mi Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/about">Acerca de</a></li>
+                <li><a href="/contact" class="is-current">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-shell">
+        <section class="page-hero">
+            <div>
+                <p class="eyebrow">Contacto</p>
+                <h2>Hablemos de colaboraciones, reseñas o ideas para futuras publicaciones.</h2>
+            </div>
+            <p class="page-hero__text">
+                Esta pantalla es simulada, pero representa un formulario de contacto editorial para marcas,
+                lectores o equipos creativos interesados en participar en el proyecto.
+            </p>
+        </section>
+
+        <section class="contact-layout">
+            <article class="contact-card">
+                <span class="article-tag">Canal principal</span>
+                <h3>Formulario editorial</h3>
+                <form class="contact-form">
+                    <label for="name">Nombre completo</label>
+                    <input id="name" name="name" type="text" placeholder="Ej. Maria Perez">
+
+                    <label for="email">Correo electronico</label>
+                    <input id="email" name="email" type="email" placeholder="tucorreo@ejemplo.com">
+
+                    <label for="topic">Motivo del mensaje</label>
+                    <select id="topic" name="topic">
+                        <option>Consulta general</option>
+                        <option>Colaboracion editorial</option>
+                        <option>Solicitud de reseña</option>
+                        <option>Publicidad o patrocinio</option>
+                    </select>
+
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Cuentanos brevemente en que podemos ayudarte..."></textarea>
+
+                    <button type="button" class="contact-submit">Enviar solicitud</button>
+                </form>
+                <p class="form-note">Formulario simulado: no envia datos reales, solo completa la experiencia visual del sitio.</p>
+            </article>
+
+            <aside class="contact-sidebar">
+                <div class="info-card">
+                    <span class="article-tag">Tiempo estimado</span>
+                    <h3>Respuesta en 24 a 48 horas</h3>
+                    <p>
+                        Para mantener el tono curado del proyecto, cada mensaje se revisa antes de responder con
+                        una propuesta o una linea editorial concreta.
+                    </p>
+                </div>
+                <div class="info-card">
+                    <span class="article-tag">Temas frecuentes</span>
+                    <h3>Que tipo de consultas imaginamos aqui</h3>
+                    <p>
+                        Reseñas de modelos especiales, ideas para publicaciones tematicas, colaboraciones visuales
+                        y solicitudes para destacar piezas unicas dentro del blog.
+                    </p>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mi Blog. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
