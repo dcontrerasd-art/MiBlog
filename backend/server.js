@@ -88,6 +88,4 @@ app.get("/api/articles", (req, res) => {
     res.json(articles);
 });
 
-app.listen(PORT, "0.0.0.0", () => {
-    console.log(`Servidor escuchando en http://localhost:${PORT}`);
-});
+module.exports = app;
