@@ -61,9 +61,6 @@ const articles = [
     }
 ];
 
-app.use("/css", express.static(path.join(__dirname, "../frontend/css")));
-app.use("/js", express.static(path.join(__dirname, "../frontend/js")));
-app.use("/img", express.static(path.join(__dirname, "../frontend/img")));
 
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "../frontend/html/index.html"));
